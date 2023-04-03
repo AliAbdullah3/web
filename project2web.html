@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Elements Demo</title>
+	<style>
+		body {
+			background-color: #FCEADE;
+			color: #383838;
+			font-family: Arial, sans-serif;
+			font-size: 18px;
+			line-height: 1.5;
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			background-color: #459dfb;
+			color: #FCEADE;
+			padding: 20px;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 48px;
+			margin-bottom: 20px;
+		}
+
+		p {
+			margin-bottom: 30px;
+		}
+
+		img {
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+		}
+
+		.container {
+			margin: 0 auto;
+			max-width: 800px;
+			padding: 20px;
+		}
+
+		.button {
+			background-color: #459dfb;
+			border: none;
+			color: #FCEADE;
+			cursor: pointer;
+			font-size: 24px;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			margin-bottom: 20px;
+			border-radius: 10px;
+		}
+
+		.button:hover {
+			background-color: #FCEADE;
+			color: #459dfb;
+		}
+
+		@media (max-width: 600px) {
+			h1 {
+				font-size: 36px;
+			}
+
+			.container {
+				padding: 10px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>CSS Elements Demo</h1>
+	</header>
+	<div class="container">
+		<p>This is a demo page showcasing various CSS elements and how they can be styled.</p>
+		<h2>Images</h2>
+		<p>Here's an example of an image:</p>
+		<img src="https://blog.adventus.io/hubfs/Imported_Blog_Media/Humber-Newroom-Image-2.gif" alt="Random image from Picsum">
+		<h2>Buttons</h2>
+		<p>Here's an example of a button:</p>
+		<button class="button">Click me!</button>
+		<h2>Media queries</h2>
+		<p>This page also includes a media query to adjust the layout for smaller screens:</p>
+		<p>Resize your browser window to see the effect!</p>
+	</div>
+</body>
+</html>
